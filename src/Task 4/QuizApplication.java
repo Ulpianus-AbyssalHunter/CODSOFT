@@ -67,9 +67,9 @@ public class QuizApplication {
 
     private List<Question> loadQuestions() {
         List<Question> questions = new ArrayList<>();
-        questions.add(new Question("What is the capital of France?", new String[]{"Berlin", "Paris", "Madrid", "Rome"}, 1));
-        questions.add(new Question("What is 2 + 2?", new String[]{"3", "4", "5", "6"}, 1));
-        questions.add(new Question("Which planet is known as the Red Planet?", new String[]{"Earth", "Mars", "Jupiter", "Saturn"}, 1));
+        questions.add(new Question("What is the name of the movie which loosely adapted 'Do Androids Dream of Eletric Sheep?' by Philp K. Dick?", new String[]{"Minority Report", "Total Recall", "Blade Runner", "Paycheck"}, 2));
+        questions.add(new Question("Who was the initial choice for the role of Aishwarya Rai's brother in the Bollywood classic 'Josh' released in the year 2000?", new String[]{"Aamir Khan", "Salman Khan", "Akshay Kumar", "Suniel Shetty"}, 1));
+        questions.add(new Question("At what temperature are Celsius & Fahrenheit equal?", new String[]{"0", "-20", "36", "-40"}, 3));
         return questions;
     }
 
